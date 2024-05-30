@@ -1,0 +1,100 @@
+body{
+    background-color: pink;
+}
+nav{
+    background-color: rgb(108, 89, 89);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-righ   
+    t: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a:hover{
+    background-color: chocolate;
+    transition: 1s;
+    color: Black;
+}
+nav img{
+    margin-right: auto;
+}
+
+
+.container{
+    width: 780px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.row{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+}
+.product-image{
+  width: 400px;
+}
+.product-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.product-details{
+    width: 400px;
+    color: black;
+    background-color: gray;
+    padding-left: 10px;
+}
+.caption{
+    width: 300px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+.related-product{
+    width: 180px;
+    background-color: skyblue;
+    padding: 15px;
+    border: 2px solid black;
+}
+.related-product img{
+    width: 100%;
+    object-fit: cover;
+}
+.related-product-name{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hu{
+    display: flex;
+    margin: auto;
+    gap: 15px;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
